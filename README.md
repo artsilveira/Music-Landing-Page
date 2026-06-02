@@ -1,2 +1,19 @@
 # Music-Landing-Page
-Front-end practice project inspired by modern music artist websites, built with HTML and Tailwind CSS.
+
+Landing page inspirada em sites modernos de artistas e bandas.
+
+## Tecnologias
+
+- HTML5
+- Tailwind CSS
+
+## Funcionalidades
+
+- Hero section com imagem de fundo
+- Navegação responsiva
+- Cards promocionais para músicas, vídeos e produtos
+- Layout moderno inspirado em sites de artistas
+
+## Objetivo
+
+Projeto desenvolvido para praticar construção de interfaces com Tailwind CSS e técnicas modernas de layout.
