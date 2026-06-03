@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Music Landing Page</title>
 </head>
-<body>
-        <section class="w-screen h-screen bg-[linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('./images/background.jpg')] bg-cover bg-center flex flex-col justify-between">   <!-- HERO -->
+<body class="bg-[linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('./images/background.jpg')] bg-cover bg-center bg-fixed">
 
-            <header class="px-8 py-4">
-                <nav class="flex justify-between">
-                    <p class="font-bold tracking-widest text-2xl">VR</p>
-                    <ul class="flex gap-6 ">
-                        <li><a href="">MUSIC</a></li>
-                        <li><a href="">MERCH</a></li>
-                        <li><a href="">VIDEOS</a></li>
-                        <li><a href="">TOUR</a></li>
-                        <li><a href="">INFO</a></li>
-                    </ul>
-                    <a href="" class="border border-white/30 px-4 py-2 rounded-full">BUY TICKETS</a>
-                </nav>
-            </header>
+        <header class="px-8 py-4">
+            <nav class="flex justify-between">
+                <p class="font-bold tracking-widest text-2xl transition-all duration-300 hover:scale-105 cursor-pointer" id="navhome">CD</p>
+                <ul class="flex gap-6 ">
+                    <li><a href="#" id="navmusic">MUSIC</a></li>
+                    <li><a href="#" id="navmerch">MERCH</a></li>
+                    <li><a href="#" id="navvideos">VIDEOS</a></li>
+                    <li><a href="#" id="navtour">TOUR</a></li>
+                    <li><a href="#" id="navinfo">INFO</a></li>
+                </ul>
+                <a href="" class=" border border-white/30 px-4 py-2 rounded-full transition-all duration-300 hover:scale-105 hover:bg-white/10 bg-zinc-900" id="navbuytickets">BUY TICKETS</a>
+            </nav>
+        </header>
+
+        <!-- HERO -->
+        <section id="Shome" class="w-full h-[calc(100vh-74px)] flex flex-col justify-between">   
+
 
             <div class="flex flex-col items-center justify-center flex-1">
 
                 <div class="w-24 h-[2px] bg-white mb-8"></div>
 
 
-                <h1 class="text-9xl font-semibold text-center">
+                <h1 class="text-9xl font-bold text-center titulo">
                     Cloud 
                      <br> 
                     District
                 </h1>
 
-                <p class="mt-4 tracking-[0.3em] uppercase text-white/80">  <!-- waveform aqui -->
+                <p class="mt-4 tracking-[0.3em] uppercase text-white/80 ">  <!-- waveform aqui -->
                     Echoes From Another Dimension
                 </p> 
 
@@ -114,6 +118,31 @@
                 </div>
 
             </div>    
+
+        </section>
+
+        <!-- MUSIC SECTION -->
+        <section id="Smusic" class="hidden">
+
+        </section>
+
+        <!-- MERCH SECTION -->
+        <section id="Smerch" class="hidden">
+
+        </section>
+
+        <!-- VIDEOS SECTION -->
+        <section id="Svideos" class="hidden">
+
+        </section>
+
+        <!-- TOUR SECTION-->
+        <section id="Stour" class="hidden">
+
+        </section>
+
+        <!-- INFO SECTION -->
+        <section id="Sinfo" class="hidden">
 
         </section>
         
