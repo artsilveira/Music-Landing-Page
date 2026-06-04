@@ -315,11 +315,11 @@
   .-rotate-90 {
     rotate: calc(90deg * -1);
   }
+  .animate-\[fadeUp_0\.8s_ease-out_forwards\] {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
   .animate-\[float_1\.2s_ease-in-out_infinite\] {
     animation: float 1.2s ease-in-out infinite;
-  }
-  .animate-\[float_3s_ease-in-out_infinite\] {
-    animation: float 3s ease-in-out infinite;
   }
   .animate-\[wave_1\.2s_ease-in-out_infinite\] {
     animation: wave 1.2s ease-in-out infinite;
@@ -597,6 +597,9 @@
   .underline-offset-4 {
     text-underline-offset: 4px;
   }
+  .opacity-0 {
+    opacity: 0%;
+  }
   .opacity-50 {
     opacity: 50%;
   }
@@ -711,6 +714,16 @@
   }
   50% {
     transform: translateY(-6px);
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 @property --tw-space-y-reverse {
